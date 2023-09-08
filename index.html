@@ -11,8 +11,16 @@
     <div id="equation-input">
         <label for="equation">Enter an equation:</label>
         <input type="text" id="equation" placeholder="e.g., x^2 + 5*x + 10">
+        <label for="scaleX">Scale X:</label>
+        <input type="number" id="scaleX" value="50">
+        <label for="scaleY">Scale Y:</label>
+        <input type="number" id="scaleY" value="50">
         <button id="graph-button">Graph</button>
-    </div>
+        <button id="pan-left">Left</button>
+        <button id="pan-right">Right</button>
+        <button id="pan-up">Up</button>
+        <button id="pan-down">Down</button>
+    </div>     
     <div id="graph-container">
         <canvas id="graph"></canvas>
     </div>
