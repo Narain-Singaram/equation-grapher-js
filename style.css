@@ -7,22 +7,22 @@ h1 {
     margin-bottom: 20px;
 }
 
-#graph-container {
-    margin: 20px;
-}
-
 #equation-input {
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
 }
 
 #equation {
     padding: 5px;
 }
 
-#graph-button {
-    padding: 5px 10px;
-    background-color: #0074d9;
-    color: white;
-    border: none;
-    cursor: pointer;
+#graph-container {
+    margin: 20px auto;
+    max-width: 800px; /* Set a max width for the graph container */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
