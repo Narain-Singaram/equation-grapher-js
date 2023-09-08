@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#graph-container {
+    margin: 20px;
+}
+
+#equation-input {
+    margin: 20px;
+}
+
+#equation {
+    padding: 5px;
+}
+
+#graph-button {
+    padding: 5px 10px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

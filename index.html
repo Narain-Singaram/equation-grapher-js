@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equation Grapher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Equation Grapher</h1>
+    <div id="graph-container">
+        <canvas id="graph"></canvas>
+    </div>
+    <div id="equation-input">
+        <label for="equation">Enter an equation:</label>
+        <input type="text" id="equation" placeholder="e.g., x^2 + 5*x + 10">
+        <button id="graph-button">Graph</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
